@@ -1550,6 +1550,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1088033618}
   - component: {fileID: 1088033619}
+  - component: {fileID: 1088033620}
   m_Layer: 0
   m_Name: left light
   m_TagString: Untagged
@@ -1606,6 +1607,17 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1088033620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1088033617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8d900d7804ad4e9ea14aea34e4d45f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1121666029
 GameObject:
   m_ObjectHideFlags: 0
@@ -2130,6 +2142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1588283512}
   - component: {fileID: 1588283513}
+  - component: {fileID: 1588283514}
   m_Layer: 0
   m_Name: right light
   m_TagString: Untagged
@@ -2186,6 +2199,17 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1588283514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1588283511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8d900d7804ad4e9ea14aea34e4d45f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1642114882
 GameObject:
   m_ObjectHideFlags: 0
