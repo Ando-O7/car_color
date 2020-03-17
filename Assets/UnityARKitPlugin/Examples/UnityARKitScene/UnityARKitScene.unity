@@ -325,39 +325,43 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b95794d061bd7403da6ab534a968a5d5, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b95794d061bd7403da6ab534a968a5d5, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b95794d061bd7403da6ab534a968a5d5, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b95794d061bd7403da6ab534a968a5d5, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b95794d061bd7403da6ab534a968a5d5, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b95794d061bd7403da6ab534a968a5d5, type: 3}
       propertyPath: m_LocalScale.x
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b95794d061bd7403da6ab534a968a5d5, type: 3}
       propertyPath: m_LocalScale.y
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b95794d061bd7403da6ab534a968a5d5, type: 3}
       propertyPath: m_LocalScale.z
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: b95794d061bd7403da6ab534a968a5d5, type: 3}
       propertyPath: m_Name
       value: Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: b95794d061bd7403da6ab534a968a5d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b95794d061bd7403da6ab534a968a5d5, type: 3}
@@ -366,6 +370,26 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400006, guid: b95794d061bd7403da6ab534a968a5d5, type: 3}
   m_PrefabInternal: {fileID: 29322535}
+--- !u!1 &29322537 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100006, guid: b95794d061bd7403da6ab534a968a5d5, type: 3}
+  m_PrefabInternal: {fileID: 29322535}
+--- !u!114 &29322538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 29322537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6941ec02ead994c9b848d640887441f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HitTransform: {fileID: 1286139108}
+  maxRayDistance: 30
+  collisionLayer:
+    serializedVersion: 2
+    m_Bits: 1024
 --- !u!1 &229804520
 GameObject:
   m_ObjectHideFlags: 0
